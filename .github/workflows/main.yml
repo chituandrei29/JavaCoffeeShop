@@ -1,5 +1,7 @@
 name: Java CI with Maven and Snyk
-
+env:
+  SNYK_TOKEN: bdf67ffa-ce30-490b-a8a7-bc82fc4e158b
+  
 on:
   push:
     branches: [ "master" ]
